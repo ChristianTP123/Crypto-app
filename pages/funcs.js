@@ -8,7 +8,7 @@ const formatCash = n => {
   if (n >= 1e12) return +(n / 1e12).toFixed(1) + "T";
 };
 
-
+export default function ja() {}
 
 export function Site(props) {
   return (
