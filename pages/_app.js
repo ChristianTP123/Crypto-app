@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }) {
         rel="stylesheet"
       />
     </Head>
+    <script async src="https://cdn.splitbee.io/sb.js"/>
     <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" />
     <Component {...pageProps} />
   </div>
